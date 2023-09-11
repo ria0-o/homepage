@@ -1,0 +1,151 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+#navbar {
+    background-color: #4C50A9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Navigation links */
+#navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar li {
+    margin-right: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Page content */
+#home {
+    background-color: #FF8B28;
+    padding: 20px; /* Add padding to create space between content and the background */
+    text-align: center;
+}
+
+.h-primary {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #797EF6;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* Centered links */
+.centered-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.centered-links li {
+    margin-right: 20px;
+}
+
+/* Box container for "Add Pets," "Login," and "Sign Up" links in the upper right */
+.upper-right-box-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: gray;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+.upper-right-box-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.upper-right-box-container li {
+    margin-left: 10px;
+}
+
+/* Divider inside the box container */
+.divider {
+    width: 1px;
+    height: 20px;
+    background-color: #CCCCCC;
+    margin: 0 10px;
+}
+
+/* Change text color to black for links inside the upper right box container */
+.upper-right-box-container a {
+    color: black;
+}
+
+.h-secondary {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: center; /* Align text to the left */
+}
+
+
+/* CSS styles to center all text in the "ADOPT A FRIEND" section */
+#home {
+    text-align: center; /* Center-align all text in the #home section */
+}
+
+#home .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Change the color of paragraph text to black */
+p {
+    color: black;
+}
+
+#home h2 {
+    color: rgb(255, 255, 255);
+    margin-top: 20px; /* Adjust the margin to lower the text */
+}
+
+.friend-image {
+    width: 500px; /* Set the width of the image (adjust as needed) */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+    margin-left: auto; /* Push the image to the right, centering it within the available space */
+}
